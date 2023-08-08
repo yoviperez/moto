@@ -1,0 +1,80 @@
+:root {
+  --black: #ab2a0e;
+  --white: #ffffff;
+  --electric-lime: #ffffff;
+  --red: #190f07;
+  --gray: #ab2a0e;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--black);
+  color: white;
+  font-size: 1.6rem;
+}
+h1 {
+  width: 80vw;
+  margin: 2.5rem auto;
+}
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-auto-rows: 6rem;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+.card-container {
+  background-color: var(--gray);
+  color: var(--white);
+  border-radius: 0.8rem;
+  height: 6.8rem;
+  padding: 0 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.card-container p {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.right-content {
+  align-items: center;
+  display: flex;
+}
+.right-content svg {
+  font-size: 4rem;
+  margin-right: 1.5rem;
+}
+.button {
+  border: none;
+  width: 8rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  height: 3.8rem;
+  cursor: pointer;
+}
+.Iniciar {
+  background-color: var(--electric-lime);
+}
+.Terminar {
+  background-color: var(--red);
+  color: #ffffff;
+}
+
+.center {
+  text-align: center;
+}
